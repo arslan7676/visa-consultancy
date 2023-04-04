@@ -1,0 +1,446 @@
+
+.coaching-section{
+    position: relative;
+  }
+  
+  .coaching-block-one .inner-box{
+    position: relative;
+    display: block;
+    overflow: hidden;
+  }
+  
+  .coaching-block-one .inner-box .image-box{
+    position: relative;
+    margin: 0px -2.5px;
+  }
+  
+  .coaching-block-one .inner-box .image-box .image{
+    position: relative;
+    float: left;
+    width: 50%;
+    padding: 0px 2.5px;
+  }
+  
+  .coaching-block-one .inner-box .image-box .image img{
+    width: 100%;
+  }
+  
+  .coaching-block-one .inner-box .static-content{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    padding: 16px 30px;
+    background: #9FA838;
+    transition: all 500ms ease;
+  }
+  
+  .coaching-block-one .inner-box h3{
+    display: block;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+    color: var(--white-color);
+  }
+  
+  .coaching-block-one .inner-box h3 a{
+    display: inline-block;
+    color: var(--white-color);
+  }
+  
+  .coaching-block-one .inner-box h3 a:hover{
+    text-decoration: underline;
+  }
+  
+  .coaching-block-one .inner-box .link{
+    position: absolute;
+    top: -20px;
+    right: 11px;
+  }
+  
+  .coaching-block-one .inner-box .link a{
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 46px;
+    font-size: 18px;
+    color: var(--main-color);
+    background: var(--white-color);
+    text-align: center;
+    border-radius: 50%;
+  }
+  
+  .coaching-block-one .inner-box .link a:hover{
+    background: var(--secondary-color);
+    color: var(--white-color);
+  }
+  
+  .coaching-block-one .inner-box .static-content .link a{
+    transform: rotate(-30deg);
+  }
+  
+  .coaching-block-one .inner-box:hover .static-content{
+    opacity: 0;
+  }
+  
+  .coaching-block-one .inner-box .overlay-content{
+    position: absolute;
+    left: 30px;
+    bottom: 0px;
+    width: calc(100% - 60px);
+    padding: 30px;
+    background: #9FA838;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transform-origin: left center;
+    transition: all 500ms ease;
+  }
+  
+  .coaching-block-one .inner-box:hover .overlay-content{
+    transform: scaleX(1);
+  }
+  
+  .coaching-block-one .inner-box .overlay-content p{
+    margin-top: 11px;
+    color: var(--white-color);
+  }
+  
+  .coaching-section .pattern-layer{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 491px;
+    background-size: cover;
+    background-repeat: repeat-x;
+    animation: slide 60s linear infinite;
+    -webkit-animation: slide 60s linear infinite;
+  }
+  
+  
+  /** coaching-style-two **/
+  
+  .coaching-style-two{
+    background: #F5F5F5;
+  }
+  
+  .coaching-style-two .sec-title .sub-title:after{
+    background: #F5F5F5;
+  }
+  
+  .coaching-block-two .inner-box{
+    position: relative;
+    display: block;
+    padding: 0px 0px;
+  }
+  
+  .coaching-block-two .inner-box .icon-box{
+    position: relative;
+    display: inline-block;
+    width: 212px;
+    height: 212px;
+    line-height: 212px;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px 10px rgba(3, 39, 97, 0.05);
+    margin-bottom: 30px;
+    border-radius: 50%;
+  }
+  
+  .coaching-block-two .inner-box .icon-box .count-text{
+    position: absolute;
+    right: 29px;
+    bottom: 2px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 12px;
+    color: var(--white-color);
+    font-weight: 700;
+    background: var(--main-color);
+    text-align: center;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  .coaching-block-two .inner-box .icon-box .count-text:before{
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 40px;
+    left: -2px;
+    top: -2px;
+    border-radius: 50%;
+    border: 1px solid var(--secondary-color);
+    z-index: -1;
+    transition: all 500ms ease;
+  }
+  
+  .coaching-block-two .inner-box:hover .icon-box .count-text:before{
+    background: #a6b100;
+  }
+  
+  .coaching-block-two .inner-box h3{
+    display: block;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .coaching-block-two .inner-box h3 a{
+    display: inline-block;
+    color: var(--main-color);
+  }
+  
+  .coaching-block-two .inner-box h3 a:hover{
+    color: var(--secondary-color);
+  }
+  
+  .coaching-style-two .more-content{
+    margin-top: 50px;
+  }
+  
+  .coaching-style-two .more-content h5{
+    display: block;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+  
+  .coaching-style-two .more-content h5 a{
+    display: inline-block;
+    color: var(--secondary-color);
+    text-decoration: underline;
+  }
+  
+  .coaching-style-two .more-content h5 a:hover{
+    color: var(--main-color);
+  }
+  
+  .coaching-style-two .more-content .theme-btn{
+    background: var(--main-color);
+  }
+  
+  .coaching-style-two .more-content .theme-btn:hover{
+    box-shadow: inset 0 0 0 2em #b9bf799e;
+  }
+  
+  .coaching-style-two .pattern-layer{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 491px;
+    background-size: cover;
+    background-repeat: repeat-x;
+    animation: slide 60s linear infinite;
+    -webkit-animation: slide 60s linear infinite;
+  }
+  
+  
+  /** coaching-style-three **/
+  
+  .coaching-style-three{
+    position: relative;
+  }
+  
+  .coaching-style-three .coaching-block-three{
+    float: left;
+    width: 25%;
+  }
+  
+  .coaching-block-three .inner-box{
+    position: relative;
+    display: block;
+    overflow: hidden;
+  }
+  
+  .coaching-block-three .inner-box .image-box img{
+    width: 100%;
+  }
+  
+  .coaching-block-three .inner-box .content-box{
+    position: absolute;
+    left: 0px;
+    bottom: 70px;
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  
+  .coaching-block-three .inner-box .content-box .icon-box{
+    position: relative;
+    display: block;
+    font-size: 100px;
+    color: var(--white-color);
+    margin-bottom: 30px;
+  }
+  
+  .coaching-block-three .inner-box .content-box h3{
+    display: block;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .coaching-block-three .inner-box .content-box h3 a{
+    display: inline-block;
+    color: var(--white-color);
+  }
+  
+  .coaching-block-three .inner-box .content-box h3 a:hover{
+    color: var(--secondary-color);
+  }
+  
+  .coaching-block-three .inner-box .content-box p{
+    color: var(--white-color);
+  }
+  
+  .coaching-block-three .inner-box .overlay-content{
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 500ms ease;
+  }
+  
+  .coaching-block-three .inner-box:hover .overlay-content{
+    opacity: 1;
+    top: 0px;
+  }
+  
+  .coaching-block-three .inner-box .overlay-content:before{
+    position: absolute;
+    content: '';
+    background: #9fa83888;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+  }
+  
+  .coaching-block-one .inner-box .lower-content{
+    position: relative;
+    display: block;
+    background: #FAFAFA;
+    padding: 45px 50px 56px 50px;
+    border: 2px solid #FAFAFA;
+    border-top: none;
+    transition: all 500ms ease;
+  }
+  
+  .coaching-block-one .inner-box:hover .lower-content{
+    border-color: #9FA838;
+  }
+  
+  .coaching-block-one .inner-box .lower-content h3{
+    margin-bottom: 15px;
+  }
+  
+  .coaching-block-one .inner-box .lower-content h3 a{
+    color: var(--title-color);
+  }
+  
+  .coaching-block-one .inner-box .lower-content h3 a:hover{
+    color: var(--secondary-color);
+  }
+  
+  .coaching-block-one .inner-box .lower-content p{
+    font-size: 18px;
+    color: #07407D;
+    margin-bottom: 20px;
+  }
+  
+  .coaching-block-one .inner-box .lower-content .link-box a{
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #07407D;
+  }
+  
+  .coaching-block-one .inner-box .lower-content .link-box a:hover{
+    color: var(--secondary-color);
+  }
+  
+  .coaching-block-one .inner-box .lower-content .link-box a span{
+    position: relative;
+    padding-right: 25px;
+  }
+  
+  .coaching-block-one .inner-box .lower-content .link-box a span:before{
+    position: absolute;
+    content: '';
+    background: #07407D;
+    width: 16px;
+    height: 1px;
+    top: 12px;
+    right: 0px;
+  }
+  
+  .coaching-section .title-box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .coaching-section .title-box .sec-title{
+    max-width: 550px;
+  }
+  
+  .coaching-section .title-box .text{
+    max-width: 575px;
+    margin-top: 70px;
+  }
+  
+  .coaching-section .title-box .text p{
+    font-size: 18px;
+    color: #07407D;
+  }
+  
+  .coaching-style-two.visa-page{
+    background: #fff;
+  }
+  
+  .coaching-style-two.visa-page .sec-title .sub-title:after{
+    background: #fff;
+  }
+  
+  .coaching-style-two.visa-page .more-content h5{
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 400;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

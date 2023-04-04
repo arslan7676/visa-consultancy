@@ -1,0 +1,64 @@
+
+.clients-section .inner-box{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .clients-section .clients-list{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .clients-section .clients-list img{
+    position: relative;
+    opacity: 0.5;
+    transition: all 500ms ease;
+  }
+  
+  .clients-section .clients-list img:hover{
+    opacity: 1;
+  }
+  
+  .clients-section.alternat-2 .inner-box{
+    padding-top: 0px;
+    border-top: none;
+  }
+  
+  .clients-section.alternat-2{
+    padding-bottom: 150px;
+  }
+  
+  .clients-section.alternat-3{
+    background: #F5F5F5;
+    padding: 127px 0px;
+  }
+  
+  .clients-section.alternat-3 .inner-box{
+    border-top: none;
+  }
+  
+  .clients-section .pattern-layer .pattern-1{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 999px;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .clients-section .pattern-layer .pattern-2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 979px;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .clients-section.about-page{
+    padding: 90px 0px;
+    background: #F5F5F5;
+  }

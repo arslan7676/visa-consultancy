@@ -1,0 +1,199 @@
+
+.skills-section{
+    position: relative;
+  }
+  
+  .progress-box .bar{
+    position:relative;
+    width:100%;
+    height:15px;
+    background: #B4C4D9;
+    border-radius: 0px;
+  }
+    
+  .progress-box .bar-inner{
+    position:relative;
+    display:block;
+    width:0px;
+    height:8px;
+    top: 7px;
+    background: var(--secondary-color);
+    border-radius: 0px;
+    -webkit-transition:all 1500ms ease;
+    -ms-transition:all 1500ms ease;
+    -o-transition:all 1500ms ease;
+    -moz-transition:all 1500ms ease;
+    transition:all 1500ms ease; 
+  }
+    
+  .progress-box .count-text{
+    position: absolute;
+    top: 8px;
+    right: -12px;
+    font-size: 12px;
+    line-height: 26px;
+    color: var(--secondary-color);
+  }
+  
+  .progress-box p{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #07407D;
+    margin-bottom: 12px;
+  }
+  
+  .content_block_five .content-box{
+    position: relative;
+    display: block;
+  }
+  
+  .skills-section .content-box{
+    max-width: 575px;
+  }
+  
+  .skills-section .pattern-layer{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 996px;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .skills-section .image-layer{
+    position: absolute;
+    right: 0px;
+    bottom: 30px;
+  }
+  
+  .skills-section .pattern-layer-2{
+    position: absolute;
+    left: 0px;
+    top: -100px;
+    width: 368px;
+    height: 466px;
+    background-repeat: no-repeat;
+  }
+  
+  .skills-section .pattern-layer-3{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 999px;
+    height: 961px;
+    background-repeat: no-repeat;
+  }
+  
+  .skills-section.alternat-2 .image-layer{
+    right: 270px;
+    bottom: 100px;
+  }
+  
+  
+  /** skills-style-two **/
+  
+  .skills-style-two{
+    position: relative;
+  }
+  
+  .skills-style-two .image-box{
+    position: relative;
+    display: block;
+  }
+  
+  .skills-style-two .image-box img{
+    width: 100%;
+  }
+  
+  .skills-style-two .image-box .image{
+    position: relative;
+    display: block;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .skills-style-two .image-box .image:before{
+    position: absolute;
+    top: 0;
+    left: -85%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, .3)));
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+    -webkit-transform: skewX(-25deg);
+    -ms-transform: skewX(-25deg);
+    transform: skewX(-25deg);
+    z-index: 1;
+  }
+  
+  .skills-style-two .image-box .image:hover:before {
+    -webkit-animation: shine 1s;
+    animation: shine 1s;
+  }
+  
+  .skills-style-two .image-box .image img{
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  .skills-style-two .image-box .shape{
+    position: absolute;
+    left: 0px;
+    top: -120px;
+    width: 425px;
+    height: 360px;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
+  
+  .skills-style-two .content_block_five .content-box .text p{
+    color: #07407D;
+  }
+  
+  .skills-style-two .tab-btns{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px solid #B4C4D9;
+  }
+  
+  .skills-style-two .tab-btns li{
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--secondary-color);
+    cursor: pointer;
+    text-transform: uppercase;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 22px;
+    transition: all 500ms ease;
+  }
+  
+  .skills-style-two .tab-btns li.active-btn,
+  .skills-style-two .tab-btns li:hover{
+    color: var(--main-color);
+  }
+  
+  .skills-style-two .tab-btns li:before{
+    position: absolute;
+    content: '';
+    background: var(--main-color);
+    width: 100%;
+    height: 1px;
+    left: 0px;
+    bottom: -1px;
+    transform: scale(0);
+    transition: all 500ms ease;
+  }
+  
+  .skills-style-two .tab-btns li.active-btn:before,
+  .skills-style-two .tab-btns li:hover:before{
+    transform: scale(1);
+  }

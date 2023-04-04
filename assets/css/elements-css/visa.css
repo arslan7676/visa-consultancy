@@ -1,0 +1,321 @@
+
+.visa-section{
+    position: relative;
+  }
+  
+  .visa-section .owl-carousel .owl-stage-outer{
+    overflow: visible;
+  }
+
+  .visa-section .owl-carousel .owl-stage-outer .owl-item{
+    opacity: 0;
+  }
+  
+  .visa-section .owl-carousel .owl-stage-outer .owl-item.active{
+    opacity: 1;
+  }
+  
+  .visa-block-one .inner-box{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
+  }
+  
+  .visa-block-one .inner-box:before{
+    position: absolute;
+    content: '';
+    background: #9FA838;
+    width: 100%;
+    height: 2px;
+    left: 0px;
+    bottom: 0px;
+    transform: scale(0,0);
+    transition: all 500ms ease;
+  }
+  
+  .visa-block-one .inner-box:hover:before{
+    transform: scale(1,1);
+  }
+  
+  .visa-block-one .inner-box .image-box{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background: #9FA838;
+    border-radius: 0px 0px 15px 15px;
+  }
+  
+  .visa-block-one .inner-box .image-box img{
+    width: 100%;
+    border-radius: 0px 0px 15px 15px;
+    transition: all 500ms ease;
+  }
+  
+  .visa-block-one .inner-box:hover .image-box img{
+    opacity: 0.15;
+    transform: scale(1.05);
+  }
+  
+  .visa-block-one .inner-box .lower-content{
+    position: relative;
+    display: block;
+    padding: 66px 30px 55px 55px;
+  }
+  
+  .visa-block-one .inner-box .lower-content .icon-box{
+    position: absolute;
+    left: 55px;
+    top: -50px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 50px;
+    color: var(--main-color);
+    background: var(--white-color);
+    border: 1px solid rgba(180, 196, 217, 0.4);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    z-index: 1;
+    transition: all 500ms ease;
+  }
+  
+  .visa-block-one .inner-box .lower-content .icon-box:before{
+    position: absolute;
+    content: '';
+    background: #9fa8385d;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    border-radius: 50%;
+    transform: scale(0,0);
+    z-index: -1;
+    transition: all 500ms ease;
+  }
+  
+  .visa-block-one .inner-box:hover .lower-content .icon-box:before{
+    transform: scale(1,1);
+  }
+  
+  .visa-block-one .inner-box .lower-content h3{
+    display: block;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .visa-block-one .inner-box .lower-content h3 a{
+    display: inline-block;
+    color: var(--main-color);
+  }
+  
+  .visa-block-one .inner-box .lower-content h3 a:hover{
+    color: #9FA838;
+  }
+  
+  .visa-block-one .inner-box .lower-content p{
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .visa-block-one .inner-box .lower-content .list-style-one{
+    margin-bottom: 25px;
+  }
+  
+  .visa-section .owl-nav{
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    margin-top: -25px;
+    width: 100%;
+  }
+  
+  .visa-section .owl-nav .owl-prev{
+    position: absolute;
+    left: -25px;
+  }
+  
+  .visa-section .owl-nav .owl-next{
+    position: absolute;
+    right: -25px;
+  }
+  
+  .visa-section .pattern-layer{
+    position: absolute;
+    left: 0px;
+    top: 65px;
+    width: 100%;
+    height: 1240px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  
+  /** visa-style-two **/
+  
+  .visa-style-two{
+    position: relative;
+  }
+  
+  .visa-style-two .owl-carousel .owl-stage-outer{
+    overflow: visible;
+  }
+  
+  .visa-style-two .owl-carousel .owl-stage-outer .owl-item{
+    opacity: 0.5;
+  }
+  
+  .visa-style-two .owl-carousel .owl-stage-outer .owl-item.active{
+    opacity: 1;
+  }
+  
+  .visa-block-two .inner-box{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background: #FAFAFA;
+  }
+  
+  .visa-block-two .inner-box .content-box{
+    position: relative;
+    display: block;
+    padding: 50px;
+  }
+  
+  .visa-block-two .inner-box .content-box .icon-box{
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+  }
+  
+  .visa-block-two .inner-box .content-box h3{
+    display: block;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .visa-block-two .inner-box .content-box h3 a{
+    display: inline-block;
+    color: var(--main-color);
+  }
+  
+  .visa-block-two .inner-box .content-box h3 a:hover{
+    color: var(--secondary-color);
+  }
+  
+  .visa-block-two .inner-box .content-box p{
+    margin-bottom: 20px;
+  }
+  
+  .visa-block-two .inner-box .content-box .link-box{
+    position: relative;
+    display: block;
+  }
+  
+  .visa-block-two .inner-box .content-box .link-box a{
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: var(--main-color);
+  }
+  
+  .visa-block-two .inner-box .content-box .link-box a:hover{
+    color: var(--secondary-color);
+  }
+  
+  .visa-block-two .inner-box .static-content .content-box .link-box a{
+    padding-right: 25px;
+  }
+  
+  .visa-block-two .inner-box .static-content .content-box .link-box a:before{
+    position: absolute;
+    content: '';
+    background: var(--main-color);
+    width: 16px;
+    height: 1px;
+    top: 13px;
+    right: 0px;
+  }
+  
+  .visa-block-two .inner-box .overlay-content .content-box .link-box a{
+    padding-left: 25px;
+  }
+  
+  .visa-block-two .inner-box .overlay-content .content-box .link-box a:before{
+    position: absolute;
+    content: '';
+    background: var(--main-color);
+    width: 16px;
+    height: 1px;
+    top: 13px;
+    left: 0px;
+  }
+  
+  .visa-block-two .inner-box .image-box{
+    position: relative;
+    display: block;
+    overflow: hidden;
+  }
+  
+  .visa-block-two .inner-box .image-box img{
+    width: 100%;
+    transition: all 500ms ease;
+  }
+  
+  .visa-block-two .inner-box .overlay-content{
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 500ms ease;
+  }
+  
+  .visa-block-two .inner-box:hover .overlay-content{
+    top: 0px;
+    opacity: 1;
+  }
+  
+  .visa-block-two .inner-box .static-content{
+    position: relative;
+    transition: all 500ms ease;
+  }
+  
+  .visa-block-two .inner-box:hover .static-content{
+    opacity: 0;
+  }
+  
+  .visa-style-two .owl-dots{
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-top: 32px;
+  }
+  
+  .visa-style-two .owl-theme .owl-dots .owl-dot span{
+    position: relative;
+    display: inline-block;
+    margin: 0px 5px;
+    width: 9px;
+    height: 9px;
+    border-radius: 66px;
+    background: var(--main-color);
+    cursor: pointer;
+    transition: all 500ms ease;
+  }
+  
+  .visa-style-two .owl-theme .owl-dots .owl-dot span:hover,
+  .visa-style-two .owl-theme .owl-dots .owl-dot.active span{
+    width: 65px;
+  }

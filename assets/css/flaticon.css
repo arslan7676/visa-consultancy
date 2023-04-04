@@ -1,0 +1,420 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?tin97q');
+  src: url('../fonts/icomoon.eot?tin97q#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?tin97q') format('truetype'),
+    url('../fonts/icomoon.woff?tin97q') format('woff'),
+    url('../fonts/icomoon.svg?tin97q#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-1:before {
+  content: url("../icons/mail-line.svg");
+  position: relative;
+  top: -2px;
+}
+
+.icon-2:before {
+  content: url("../icons/map-pin-line.svg");
+  position: relative;
+  top: -2px;
+}
+
+.icon-3:before {
+  content: url("../icons/time-line.svg");
+  position: relative;
+  top: -2px;
+}
+
+.icon-4:before {
+  content: url("../icons/facebook-fill.svg");
+}
+
+.icon-5:before {
+  content: url("../icons/instagram-line.svg");
+}
+
+.icon-6:before {
+  content: url("../icons/twitter-line.svg");
+}
+
+.icon-7:before {
+  content: url("../icons/whatsapp-line.svg");
+}
+
+.icon-8:before {
+  content: url("../icons/search-line.svg");
+}
+
+.icon-9:before {
+  content: url("../icons/arrow-right-line.svg");
+  position: relative;
+  top: 4px;
+  left: 2px;
+}
+
+.icon-10:before {
+  content: url("../icons/chevron-left.svg");
+}
+
+.icon-11:before {
+  content: url("../icons/chevron-right.svg");
+}
+
+
+.icon-12:before {
+  content: url("../icons/user-line.svg");
+  position: relative;
+  top: 12px;
+}
+.icon-13:before {
+  content: url("../icons/briefcase-line-green.svg");
+  position: relative;
+  top: 12px;
+  left: -2px;
+}
+
+.icon-14:before {
+  content: url("../icons/building-line-green.svg");
+  position: relative;
+  top: 12px;
+  left: 0px;
+}
+
+.icon-15:before {
+  content: url("../icons/star.svg");
+}
+
+.icon-16:before {
+  content: "\e90f";
+}
+
+.icon-17:before {
+  content: url("../icons/flight-takeoff-line-green.svg");
+}
+
+.icon-18:before {
+  content: url('../icons/passport-line.svg');
+}
+
+.icon-19:before {
+  content: url('../icons/building-line-green.svg');
+}
+
+.icon-20:before {
+  content: url("../icons/translate-2.svg");
+}
+
+.icon-21:before {
+  content: "\e914";
+}
+
+.icon-22 .path1:before {
+  content: "\e915";
+}
+
+.icon-22 .path2:before {
+  content: "\e916";
+}
+
+.icon-22 .path3:before {
+  content: "\e917";
+}
+
+.icon-22 .path4:before {
+  content: "\e918";
+}
+
+.icon-23:before {
+  content: "\e919";
+}
+
+.icon-24 .path1:before {
+  content: "\e91a";
+}
+
+.icon-24 .path2:before {
+  content: "\e91b";
+}
+
+.icon-24 .path3:before {
+  content: "\e91c";
+}
+
+.icon-25 .path1:before {
+  content: "\e91d";
+}
+
+.icon-25 .path2:before {
+  content: "\e91e";
+}
+
+.icon-26:before {
+  content: url("../icons/share-line.svg");
+}
+
+.icon-27:before {
+  content: url('../icons/user.svg');
+}
+
+.icon-28:before {
+  content: url('../icons/calendar-line.svg');
+}
+
+.icon-29:before {
+  content: url('../icons/phone.svg');
+  position: relative;
+  top: 10px;
+}
+
+.icon-30:before {
+  content: "\e923";
+}
+
+.icon-31:before {
+  content: "\e924";
+}
+
+.icon-32 .path1:before {
+  content: "\e925";
+}
+
+.icon-32 .path2:before {
+  content: "\e926";
+}
+
+.icon-32 .path3:before {
+  content: "\e927";
+}
+
+.icon-33:before {
+  content: url("../icons/book-open-line.svg");
+  position: relative;
+  top: 4px;
+}
+
+.icon-34:before {
+  content: url("../icons/passport-fill.svg");
+}
+
+.icon-35 .path1:before {
+  content: "\e92a";
+}
+
+.icon-35 .path2:before {
+  content: "\e92b";
+}
+
+.icon-35 .path3:before {
+  content: "\e92c";
+}
+
+.icon-35 .path4:before {
+  content: "\e92d";
+}
+
+.icon-35 .path5:before {
+  content: "\e92e";
+}
+
+.icon-35 .path6:before {
+  content: "\e92f";
+}
+
+.icon-35 .path7:before {
+  content: "\e930";
+}
+
+.icon-36:before {
+  content: "\e931";
+}
+
+.icon-37:before {
+  content: "\e932";
+}
+
+.icon-38:before {
+  content: url("../icons/bar-chart-box-fill.svg");
+}
+
+.icon-39:before {
+  content: url("../icons/award-line-white.svg");
+}
+
+.icon-40:before {
+  content: url("../icons/macbook-line.svg");
+}
+
+.icon-41:before {
+  content: url("../icons/team-fill.svg");
+}
+
+.icon-42:before {
+  content: url("../icons/file-list-3-line.svg");
+}
+
+.icon-43:before {
+  content: url("../icons/article-line.svg");
+}
+
+.icon-44:before {
+  content: url("../icons/send-plane-fill.svg");
+}
+
+.icon-45:before {
+  content: "\e93a";
+}
+
+.icon-46:before {
+  content: "\e93b";
+}
+
+.icon-47:before {
+  content: "\e93c";
+}
+
+.icon-48:before {
+  content: "\e93d";
+}
+
+.icon-49:before {
+  content: "\e93e";
+}
+
+.icon-50:before {
+  content: url("../icons/file-pdf-line.svg");
+}
+
+.icon-51:before {
+  content: url("../icons/award-line.svg");
+}
+
+.icon-52:before {
+  content: url("../icons/passport-line-small.svg");
+}
+
+.icon-53:before {
+  content: url("../icons/bar-chart-grouped-line.svg");
+}
+
+.icon-54:before {
+  content: url("../icons/book-fill.svg");
+}
+
+.icon-55:before {
+  content: url("../icons/hotel-fill.svg");
+}
+
+.icon-56:before {
+  content: url("../icons/calendar-line.svg");
+}
+
+.icon-57:before {
+  content: url("../icons/message-2-line.svg");
+}
+
+.icon-58-bg:before {
+  content: url("../icons/more-line.svg");
+  position: relative;
+  top: 4px;
+}
+
+.icon-58-bg:hover::before {
+  content: url("../icons/more-horizontal-white.svg");
+}
+
+.icon-59-bg:before {
+  content: url("../icons/arrow-right-s-line-green.svg");
+  position: relative;
+  top: 5px;
+}
+
+.icon-59-bg:hover:before {
+  content: url("../icons/chevron-right-white.svg");
+}
+
+.icon-60:before {
+  content: "\e949";
+}
+
+.icon-61:before {
+  content: url("../icons/earth-fill.svg");
+}
+
+.icon-62:before {
+  content: url("../icons/contacts-book.svg");
+}
+
+.icon-63:before {
+  content: url("../icons/history-line.svg");
+}
+
+.icon-64:before {
+  content: url("../icons/flight-takeoff-line\ \(1\).svg");
+}
+
+.icon-65:before {
+  content: url('../icons/flight-takeoff-line-white.svg');
+}
+
+.icon-66:before {
+  content: url('../icons/passport-line-white.svg');
+}
+
+.icon-67:before {
+  content: url('../icons/building-line-white.svg');
+}
+
+.icon-68:before {
+  content: url('../icons/translate-2-white.svg');
+}
+
+.icon-69::before {
+  content: url("../icons/mail.svg");
+  position: relative;
+  top: 10px;
+}
+
+.icon-70::before {
+  content: url("../icons/map-pin.svg");
+  position: relative;
+  top: 10px;
+}
+.icon-71::before {
+  content: url("../icons/facebook-fill-green.svg");
+  
+}
+.icon-72::before {
+  content: url("../icons/twitter-line-green.svg");
+  
+}
+.icon-73::before {
+  content: url("../icons/whatsapp-line-gren.svg");
+  
+}
+.icon-74::before{
+  content: url("../icons/building-line-small.svg");
+  
+}
+.icon-75::before{
+  content: url("../icons/instagram-line-green.svg");
+  
+}

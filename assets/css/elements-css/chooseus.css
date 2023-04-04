@@ -1,0 +1,98 @@
+
+.chooseus-section{
+    padding: 145px 0px;
+  }
+  
+  .chooseus-block-one .inner-box{
+    position: relative;
+    display: block;
+  }
+  
+  .chooseus-block-one .inner-box .icon-box{
+    position: relative;
+    display: block;
+    margin-bottom: 22px;
+  }
+  
+  .chooseus-block-one .inner-box h3{
+    display: block;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+  
+  .chooseus-block-one .inner-box h3 a{
+    display: inline-block;
+    color: var(--main-color);
+  }
+  
+  .chooseus-block-one .inner-box h3 a:hover{
+    color: var(--secondary-color);
+  }
+  
+  .chooseus-block-one .inner-box p{
+    margin-bottom: 20px;
+  }
+  
+  .chooseus-block-one .inner-box .link-btn a span{
+    opacity: 0;
+    transform: scaleX(0);
+    transform-origin: left center;
+    width: 0%;
+    transition: all 500ms ease;
+  }
+  
+  .chooseus-block-one .inner-box:hover .link-btn a span{
+    opacity: 1;
+    transform: scaleX(1);
+    width: 100%;
+  }
+  
+  .chooseus-block-one .inner-box .link-btn a i{
+    position: absolute;
+    left: 0px;
+    top: 4px;
+    transition: all 500ms ease;
+  }
+  
+  .chooseus-block-one .inner-box:hover .link-btn a i{
+    opacity: 0;
+  }
+  
+  .chooseus-section .pattern-layer{
+    position: absolute;
+    top: -150px;
+    right: -30px;
+    width: 355px;
+    height: 376px;
+    background-repeat: no-repeat;
+    -webkit-animation: zoom-fade 7s infinite linear;
+    animation: zoom-fade 7s infinite linear;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

@@ -1,0 +1,132 @@
+
+.visa-details{
+    padding: 150px 0px 130px 0px;
+  }
+  
+  .visa-details-content{
+    position: relative;
+    display: block;
+  }
+  
+  .visa-details-content h2{
+    display: block;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .visa-details-content .content-one p{
+    font-size: 18px;
+  }
+  
+  .visa-details-content .content-one .image-box{
+    position: relative;
+    display: block;
+    border-radius: 10px;
+    margin-bottom: 28px;
+  }
+  
+  .visa-details-content .content-one .image-box img{
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .visa-details-content .content-one .lower-text p{
+    font-size: 16px;
+  }
+  
+  .visa-details-content h3{
+    position: relative;
+    display: block;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+  
+  .visa-details-content .content-two p{
+    font-size: 16px;
+    margin-bottom: 9px;
+  }
+  
+  .visa-details-content .content-two p:last-child{
+    margin-bottom: 0px;
+  }
+  
+  .visa-details-content .content-two .list-item li{
+    position: relative;
+    display: block;
+    padding: 15px 0px 15px 0px;
+    border-bottom: 1px solid #B4C4D9;
+  }
+  
+  .visa-details-content .content-two .list-item li a{
+    position: relative;
+    display: block;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #07407D;
+  }
+  
+  .visa-details-content .content-two .list-item li a:hover{
+    color: var(--secondary-color);
+  }
+  
+  .visa-details-content .content-two .list-item li a i{
+    position: absolute;
+    top: 7px;
+    right: 0px;
+    font-size: 14px;
+    color: var(--secondary-color);
+  }
+  
+  .visa-details-content .content-three .single-item{
+    position: relative;
+    display: block;
+  }
+  
+  .visa-details-content .content-three .single-item .image-box{
+    position: relative;
+    display: block;
+    border-radius: 10px 10px 0px 0px;
+  }
+  
+  .visa-details-content .content-three .single-item .image-box img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+  }
+  
+  .visa-details-content .content-three .single-item .lower-content{
+    position: relative;
+    display: block;
+    padding-top: 20px;
+  }
+  
+  .visa-details-content .content-three .single-item .lower-content p{
+    margin-bottom: 7px;
+  }
+  
+  
+  .visa-details-content .content-three .single-item .lower-content .list-item li{
+    position: relative;
+    display: block;
+    padding: 13px 0px;
+    border-bottom: 1px solid #B4C4D9;
+  }
+  
+  .visa-details-content .content-three .single-item .lower-content .list-item li:last-child{
+    border-bottom: none;
+  }
+  
+  .visa-details-content .content-three .single-item .lower-content .list-item li a{
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    color: #9fa838;
+  }
+  
+  .visa-details-content .content-three .single-item .lower-content .list-item li a:hover{
+    color: #e0e4ab;
+  }

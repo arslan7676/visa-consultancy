@@ -1,0 +1,217 @@
+
+.dream-section{
+    padding: 245px 0px 185px 0px;
+    overflow: hidden;
+  }
+  
+  .dream-section:before{
+    position: absolute;
+    content: '';
+    background: #9FA838;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    opacity: 0.95;
+  }
+  
+  .dream-section .content-box{
+    max-width: 580px;
+  }
+  
+  .dream-section .sec-title .sub-title:after{
+    color: #fff;
+    background: #9FA838;
+  }
+  
+  .content_block_two .content-box .text p{
+    color: #fff;
+  }
+  
+  .content_block_two .content-box .list-item{
+    max-width: 455px;
+  }
+  
+  .content_block_two .content-box .list-item li{
+    position: relative;
+    display: block;
+  }
+  
+  .content_block_two .content-box .list-item li a{
+    position: relative;
+    display: block;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #fff;
+    padding: 23px 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .content_block_two .content-box .list-item li a:hover{
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+  }
+  
+  .content_block_two .content-box .list-item li a i{
+    float: right;
+    position: relative;
+    top: 5px;
+  }
+  
+  .dream-section .pattern-layer{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 238px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .dream-section .image-layer{
+    position: absolute;
+    right: 142px;
+    bottom: 0px;
+  }
+  
+  .dream-section .pattern-layer-2{
+    position: absolute;
+    top: 66px;
+    right: 0px;
+    width: 466px;
+    height: 473px;
+    background-repeat: no-repeat;
+  }
+  
+  
+  /** dream-style-two **/
+  
+  .dream-style-two{
+    background: var(--main-color);
+  }
+  
+  .dream-style-two .bg-layer{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .dream-style-two .content-column{
+    position: relative;
+    float: right;
+    width: 50%;
+    padding-left: 135px;
+  }
+  
+  .dream-style-two .content-box{
+    max-width: 540px;
+  }
+  
+  .dream-style-two .content-box .sec-title .sub-title:after{
+    background: var(--main-color);
+  }
+  
+  .content_block_two .content-box .list-item li a i{
+    color: var(--secondary-color);
+    transition: all 500ms ease;
+  }
+  
+  .content_block_two .content-box .list-item li a:hover i{
+    color: var(--white-color);
+  }
+  
+  .content_block_two .content-box .list-item li:last-child a{
+    border-bottom: none;
+  }
+  
+  .dream-style-two .pattern-layer .pattern-1{
+    position: absolute;
+    left: 0px;
+    top: -145px;
+    width: 627px;
+    height: 593px;
+    background-repeat: no-repeat;
+  }
+  
+  .dream-style-two .pattern-layer .pattern-2{
+    position: absolute;
+    right: 0px;
+    bottom: -150px;
+    width: 202px;
+    height: 355px;
+    background-repeat: no-repeat;
+  }
+  
+  
+  /** dream-style-three **/
+  
+  .dream-style-three{
+    padding: 145px 0px;
+  }
+  
+  .dream-style-three .content_block_two .content-box .text p{
+    color: #000000;
+    font-size: 18px;
+  }
+  
+  .dream-style-three .content_block_two .content-box .text{
+    max-width: 574px;
+  }
+  
+  .dream-style-three .content_block_two .content-box .list-item li a{
+    color: #000000;
+    border-bottom: 1px solid #B4C4D9;
+    padding: 16px 0px;
+  }
+  
+  .dream-style-three .content_block_two .content-box .list-item li a:hover,
+  .dream-style-three .content_block_two .content-box .list-item li a:hover i{
+    color: var(--secondary-color);
+  }
+  
+  .dream-style-three .image-box{
+    position: relative;
+    display: block;
+  }
+  
+  .dream-style-three .image-box .image{
+    position: relative;
+    display: block;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .dream-style-three .image-box .image img{
+    width: 100%;
+    transition: all 500ms ease;
+  }
+  
+  .dream-style-three .image-box .image:hover img{
+    transform: scale(1.05);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
